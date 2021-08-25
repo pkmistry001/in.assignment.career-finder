@@ -15,6 +15,7 @@ class MyApp extends StatelessWidget {
     ));*/
     return MaterialApp(
       title: 'career-finder',
+      debugShowCheckedModeBanner: false,
       home: SplashScreen(),
     );
   }
