@@ -186,7 +186,7 @@ class RegistrationScreenState extends State<RegistrationScreen> {
       style: ElevatedButton.styleFrom(
           padding: EdgeInsets.symmetric(horizontal: screenSize.width * 0.15, vertical: screenSize.height * 0.015),
           shape: RoundedRectangleBorder(
-              borderRadius: BorderRadius.circular(20))),
+              borderRadius: BorderRadius.circular(40))),
       child: Text("Signup", style: TextStyle(
           color: Colors.white, fontSize: screenSize.height * 0.023),),
     );

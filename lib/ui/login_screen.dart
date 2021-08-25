@@ -198,7 +198,7 @@ class LoginScreenState extends State<LoginScreen> {
       style: ElevatedButton.styleFrom(
           padding: EdgeInsets.symmetric(horizontal: screenSize.width * 0.15, vertical: screenSize.height * 0.015),
           shape: RoundedRectangleBorder(
-              borderRadius: BorderRadius.circular(20))),
+              borderRadius: BorderRadius.circular(40))),
       child: Text("Login", style: TextStyle(
           color: Colors.white, fontSize: screenSize.height * 0.023),),
     );
